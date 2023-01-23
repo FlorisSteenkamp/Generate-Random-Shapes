@@ -14,7 +14,8 @@ module.exports = {
         "browser/**/*",
         "unused/**/*",
         "src-unused/**/*",
-        "test/**/*"
+        "test/**/*",
+        "demo/**/*"
     ],
     "extends": [
         "eslint:recommended",

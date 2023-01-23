@@ -1,0 +1,49 @@
+{
+    "name": "race",
+    "version": "0.0.1",
+    "description": "Racing game",
+    "author": "Floris Steenkamp",
+    "type": "module",
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@mui/material": "^5.10.13",
+        "@types/chai": "^4.3.4",
+        "@types/mocha": "^10.0.0",
+        "@types/react-dom": "^18.0.8",
+        "chai": "^4.3.7",
+        "cubic-beziers-through-points": "^0.0.5",
+        "delaunator": "^5.0.0",
+        "flo-bezier3": "^4.0.1",
+        "flo-boolean": "^2.1.1",
+        "flo-draw": "^2.0.0",
+        "flo-memoize": "^1.0.0",
+        "flo-poly": "^6.0.4",
+        "flo-vector2d": "^4.0.1",
+        "generate-random-shapes": "^0.0.1",
+        "mocha": "^10.1.0",
+        "plotly.js-dist-min": "^2.16.1",
+        "ramda": "^0.28.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "squares-rng": "^2.0.0",
+        "utility-types": "^3.10.0"
+    },
+    "devDependencies": {
+        "@types/delaunator": "^5.0.0",
+        "@types/plotly.js-dist-min": "^2.3.1",
+        "@types/ramda": "^0.28.19",
+        "@types/react": "^18.0.25",
+        "resolve-typescript-plugin": "^1.2.0",
+        "ts-loader": "^9.4.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.4",
+        "webpack": "^5.75.0",
+        "webpack-bundle-analyzer": "^4.7.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "scripts": {
+        "go": "webpack -w",
+        "build": "webpack"
+    }
+}
