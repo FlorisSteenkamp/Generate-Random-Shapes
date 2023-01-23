@@ -1,0 +1,46 @@
+.blue1   { stroke: #00f;   fill: #00f; }
+.blue2   { stroke: #55f;   fill: #55f; }
+.blue3   { stroke: #99f;   fill: #aaf; }
+.yellow  { stroke: yellow; fill: yellow; }
+.orange  { stroke: orange; fill: orange; }
+.purple  { stroke: purple; fill: purple; }
+.gray    { stroke: #888;   fill: #888; }
+.red     { stroke: #F00;   fill: #F00; }
+.reddish { stroke: #F11;   fill: #F11; }
+.green   { stroke: #0F0;   fill: #0F0; }
+.blue    { stroke: #00F;   fill: #00F; }
+.blueish { stroke: #11F;   fill: #11F; }
+.cyan    { stroke: #0AA;   fill: #0AA; }
+.pink    { stroke: pink;   fill: pink; }
+.pinker  { stroke: #F0F;   fill: #F0F; }
+.brown   { stroke: brown;  fill: brown; }
+.black   { stroke: #000; }
+.darkgreen { stroke: #080; fill: #080; }
+
+
+.fill30 { fill-opacity: 0.3; }
+.nofill { fill-opacity: 0.0; }
+.nostroke { fill-opacity: 1.0; stroke-width: 0px; }
+
+
+.thin1  { stroke-width: 0.01%; }
+.thin2  { stroke-width: 0.02%; }
+.thin5  { stroke-width: 0.05%; }
+.thin10 { stroke-width: 0.10%; }
+.thin20 { stroke-width: 0.20%; }
+.thin35 { stroke-width: 0.35%; }
+.thin50 { stroke-width: 0.50%; }
+.thin100 { stroke-width: 1%; }
+.thin200 { stroke-width: 2%; }
+.thin500 { stroke-width: 5%; }
+.thin1k { stroke-width: 10%; }
+.thin2k { stroke-width: 20%; }
+
+
+.thin {
+    stroke-width: 1px;
+}
+
+.nofill {
+    fill: none
+}

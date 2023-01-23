@@ -1,0 +1,11 @@
+import { pointsToSimplePolygon } from "./get-polygon-from-points/points-to-simple-polygon.js";
+import { IDebugElems } from "./debug/debug-elem-types.js";
+import { Debug, enableDebugForRandomShape } from "./debug/debug.js";
+import { generateRandomShape } from './generate-random-shape.js';
+import { setShapeSmoothness } from "./shape/set-smoothness.js";
+import { moveShapeCentroidToOrigin } from "./shape/move-shape-centroid-to-origin.js";
+import { setShapeSize } from "./shape/set-shape-size.js";
+import { setShapeRotation } from "./shape/set-shape-rotation.js";
+import { pointsToShape } from "./points-to-shape.js";
+export type { Debug, IDebugElems };
+export { generateRandomShape, pointsToShape, pointsToSimplePolygon, enableDebugForRandomShape, setShapeSmoothness, moveShapeCentroidToOrigin, setShapeSize, setShapeRotation };

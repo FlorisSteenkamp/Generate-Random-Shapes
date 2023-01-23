@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "charset": "utf8",
+        "strict": true,
+        "module": "es2022",
+        "target": "es2022",
+        "declaration": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "outDir": "node",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": true
+    },
+    "include": [
+        "src/index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
