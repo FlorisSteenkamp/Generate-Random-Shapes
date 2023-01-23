@@ -6,5 +6,6 @@ import { moveShapeCentroidToOrigin } from "./shape/move-shape-centroid-to-origin
 import { setShapeSize } from "./shape/set-shape-size.js";
 import { setShapeRotation } from "./shape/set-shape-rotation.js";
 import { pointsToShape } from "./points-to-shape.js";
-export { generateRandomShape, pointsToShape, pointsToSimplePolygon, enableDebugForRandomShape, setShapeSmoothness, moveShapeCentroidToOrigin, setShapeSize, setShapeRotation };
+import { getRandomPointsInUnitCircle } from './geometry/get-random-points-in-unit-circle.js';
+export { generateRandomShape, getRandomPointsInUnitCircle, pointsToShape, pointsToSimplePolygon, enableDebugForRandomShape, setShapeSmoothness, moveShapeCentroidToOrigin, setShapeSize, setShapeRotation };
 //# sourceMappingURL=index.js.map

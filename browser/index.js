@@ -26,6 +26,7 @@ var __webpack_exports__ = {};
 __webpack_require__.d(__webpack_exports__, {
   "ty": () => (/* reexport */ enableDebugForRandomShape),
   "ge": () => (/* reexport */ generateRandomShape),
+  "bt": () => (/* reexport */ getRandomPointsInUnitCircle),
   "fY": () => (/* reexport */ moveShapeCentroidToOrigin),
   "mR": () => (/* reexport */ pointsToShape),
   "iC": () => (/* reexport */ pointsToSimplePolygon),
@@ -10951,12 +10952,14 @@ function setShapeRotation(θ, cubics) {
 
 
 
+
 var __webpack_exports__enableDebugForRandomShape = __webpack_exports__.ty;
 var __webpack_exports__generateRandomShape = __webpack_exports__.ge;
+var __webpack_exports__getRandomPointsInUnitCircle = __webpack_exports__.bt;
 var __webpack_exports__moveShapeCentroidToOrigin = __webpack_exports__.fY;
 var __webpack_exports__pointsToShape = __webpack_exports__.mR;
 var __webpack_exports__pointsToSimplePolygon = __webpack_exports__.iC;
 var __webpack_exports__setShapeRotation = __webpack_exports__.mE;
 var __webpack_exports__setShapeSize = __webpack_exports__.cV;
 var __webpack_exports__setShapeSmoothness = __webpack_exports__.tp;
-export { __webpack_exports__enableDebugForRandomShape as enableDebugForRandomShape, __webpack_exports__generateRandomShape as generateRandomShape, __webpack_exports__moveShapeCentroidToOrigin as moveShapeCentroidToOrigin, __webpack_exports__pointsToShape as pointsToShape, __webpack_exports__pointsToSimplePolygon as pointsToSimplePolygon, __webpack_exports__setShapeRotation as setShapeRotation, __webpack_exports__setShapeSize as setShapeSize, __webpack_exports__setShapeSmoothness as setShapeSmoothness };
+export { __webpack_exports__enableDebugForRandomShape as enableDebugForRandomShape, __webpack_exports__generateRandomShape as generateRandomShape, __webpack_exports__getRandomPointsInUnitCircle as getRandomPointsInUnitCircle, __webpack_exports__moveShapeCentroidToOrigin as moveShapeCentroidToOrigin, __webpack_exports__pointsToShape as pointsToShape, __webpack_exports__pointsToSimplePolygon as pointsToSimplePolygon, __webpack_exports__setShapeRotation as setShapeRotation, __webpack_exports__setShapeSize as setShapeSize, __webpack_exports__setShapeSmoothness as setShapeSmoothness };

@@ -7,6 +7,7 @@ import { moveShapeCentroidToOrigin } from "./shape/move-shape-centroid-to-origin
 import { setShapeSize } from "./shape/set-shape-size.js";
 import { setShapeRotation } from "./shape/set-shape-rotation.js";
 import { pointsToShape } from "./points-to-shape.js";
+import { getRandomPointsInUnitCircle } from './geometry/get-random-points-in-unit-circle.js';
 
 
 export type {
@@ -16,6 +17,7 @@ export type {
 
 export {
     generateRandomShape,
+    getRandomPointsInUnitCircle,
     pointsToShape,
     pointsToSimplePolygon,
     enableDebugForRandomShape,
