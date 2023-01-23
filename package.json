@@ -1,7 +1,7 @@
 {
     "name": "generate-random-shapes",
     "sideEffects": false,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A library to generate smooth random shapes in the plane.",
     "main": "./node/index.js",
     "exports": "./node/index.js",
